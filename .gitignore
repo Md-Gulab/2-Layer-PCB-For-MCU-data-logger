@@ -1,0 +1,41 @@
+# KiCad lock files (the ~Data_Logger.*.lck files)
+*.lck
+~*.lck
+
+# KiCad backups and autosave
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.kicad_prl
+_autosave-*
+\#auto_saved_files#
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*.tmp
+*.kicad_pcb.bak
+
+# KiCad rescue and cache
+*-rescue.lib
+*-rescue.dcm
+*-cache.lib
+*-cache.dcm
+*.net
+*.sch-bak
+
+# Auto-generated production files you don't need to track
+*.rpt
+*.drc
+*.erc
+
+# Windows junk
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor files
+.vscode/
+.idea/
+.history/
