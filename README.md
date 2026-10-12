@@ -1,34 +1,28 @@
 # 2-Layer PCB for MCU Data Logger
 
-A 2-layer PCB designed in KiCad 10 for logging data from an MCU-based system.
+A 2-layer PCB designed in KiCad 10 for logging data using an MCU-based system and communication interfaces.
 
 ## Images
 
 ### PCB Layout
-![PCB Layout](Images/pcb-layout.png)
+![PCB Layout](Images/layout.png)
 
 ### 3D View (Front)
-![3D View Front](Images/3d-front.png)
+![3D View Front](Images/3D-Front.png)
 
 ### 3D View (Back)
-![3D View Back](Images/3d-back.png)
+![3D View Back](Images/3D-Back.png)
 
 ### Schematic
-![Schematic](Images/schematic.png)
+![Schematic](Images/Schematic.png)
 
 ## Overview
 
-- **Board:** 2-layer, [width] x [height] mm
-- **MCU / main ICs:** [e.g. STM32xxxx, SD card module, RTC, etc.]
-- **Interfaces:** [e.g. SPI, I2C, UART, USB]
-- **Power:** [e.g. 5 V via USB, 3.3 V regulator]
+- **Board:** 2-layer, [50] x [30] mm
+- **MCU / main ICs:** [e.g. ATmega328P-AU, EEPROM module, RTC, etc.]
+- **Interfaces:** [e.g. I2C, UART]
+- **Power:** [e.g. 5 V via Connector]
 - **EDA tool:** KiCad 10.0
-
-## Features
-
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
 
 ## Repository Structure
 
